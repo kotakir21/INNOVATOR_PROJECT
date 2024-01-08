@@ -12,7 +12,7 @@ CSRF_COOKIE_SECURE = True
 SESSION_COOKIE_SECURE = True
 SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-round-river-24676714.eu-ws2.runcode.io',]
+CSRF_TRUSTED_ORIGINS = ['https://8080-round-river-24676714.eu-ws2.runcode.io',]
 
 INSTALLED_APPS += [  # noqa
     "django_sass",
