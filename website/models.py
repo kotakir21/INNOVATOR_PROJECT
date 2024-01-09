@@ -13,7 +13,7 @@ from coderedcms.models import CoderedLocationIndexPage
 from coderedcms.models import CoderedLocationPage
 from coderedcms.models import CoderedWebPage
 from modelcluster.fields import ParentalKey
-
+from coderedcms.models import CoderedEmail, CoderedStreamFormPage
 
 class ArticlePage(CoderedArticlePage):
     """
@@ -147,3 +147,14 @@ class WebPage(CoderedWebPage):
         verbose_name = "Web Page"
 
     template = "coderedcms/pages/web_page.html"
+
+
+
+class StreamFormPage(CoderedStreamFormPage):
+    class Meta:
+        verbose_name = 'Stream Form'
+
+    template = 'coderedcms/pages/stream_form_page.html'
+
+class StreamFormConfirmEmail(CoderedEmail):
+    page = ParentalKey('StreamFormPage', related_name='confirmation_emails')
