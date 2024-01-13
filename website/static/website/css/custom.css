@@ -12591,3 +12591,121 @@ textarea.form-control-lg {
   padding-top: 0;
   padding-bottom: 0;
 }
+
+
+/* Modern and Appealing Navbar Styles */
+
+/* Navbar */
+.navbar {
+  background-color: #ffffff; /* Set background color */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+/* Navbar Brand */
+.navbar-brand {
+  font-family: 'Helvetica Neue', sans-serif; /* Choose a modern font */
+  font-size: 24px; /* Adjust the font size */
+  font-weight: bold;
+  color: #333; /* Set text color */
+  text-decoration: none;
+}
+
+/* Navbar Links */
+.navbar-nav {
+  margin-left: auto; /* Align links to the right */
+}
+
+.nav-item {
+  margin-right: 15px; /* Add space between navbar items */
+}
+
+.nav-link {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Choose a clean font */
+  font-size: 16px; /* Adjust the font size */
+  color: #555; /* Set text color */
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: #0000cc; /* Change color on hover */
+}
+
+/* Search Form */
+.navbar-form {
+  display: flex;
+}
+
+.form-control {
+  margin-right: 5px; /* Add space between search input and button */
+}
+
+/* Buttons */
+.btn {
+  font-family: 'Roboto', Arial, sans-serif; /* Choose a modern button font */
+}
+
+.btn-outline-primary {
+  border-color: #0000cc; /* Set primary button border color */
+  color: #0000cc; /* Set primary button text color */
+}
+
+.btn-outline-primary:hover {
+  background-color: #0000cc; /* Change background color on hover */
+  color: #ffffff; /* Change text color on hover */
+}
+
+.btn-primary {
+  background-color: #0000cc; /* Set primary button background color */
+}
+
+.btn-primary:hover {
+  background-color: #0000cc; /* Change background color on hover */
+}
+
+/* Shadow Effect */
+body {
+  margin-top: 10px; /* Adjust this value based on your navbar height */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Customize the shadow effect */
+}
+/* Rounded Edges for Logo */
+.navbar-brand img {
+  border-radius: 8px; /* Adjust the border-radius value for rounded edges */
+}
+
+/* footer */
+/* Reset some default styles */
+body, h1, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Add some basic styling to the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 5px;
+  text-align: center;
+}
+
+/* Style each footer section */
+footer .footer-section {
+  margin-bottom: 10px;
+}
+
+/* Style headings and text */
+footer h2, footer p {
+  color: #bbb;
+}
+
+/* Style links */
+footer a {
+  color: #0000cc;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #ffd700; /* Change to your preferred hover color */
+}
+
+/* Add more styles as needed for specific elements within the footer */
